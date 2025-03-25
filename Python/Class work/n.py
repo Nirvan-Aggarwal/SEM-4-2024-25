@@ -1,0 +1,12 @@
+import pandas as pd 
+df= pd.read_csv("Class work/Book1.csv")
+print(df)
+# print(df["marks"].max()) 
+# print(df["marks"].min())
+# print(df.head(2))
+# print(df.tail(3))
+# print(df.describe())
+# print(df.sort_values("marks",ascending=False))
+# print(df.max())
+# df.dropna(inplace=True)
+# print(df)
